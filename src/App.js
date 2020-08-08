@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className="container">
-        <p>This is a placeholder.</p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="container">
+    <p>This is a placeholder.</p>
+  </div>
+);
+
+export default App;
