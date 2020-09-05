@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/proteomic-profiler/static/js/main.90603de7.chunk.js",
+    "main.js.map": "/proteomic-profiler/static/js/main.90603de7.chunk.js.map",
+    "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.75de12db.js",
+    "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.75de12db.js.map",
+    "static/js/2.0b1802d5.chunk.js": "/proteomic-profiler/static/js/2.0b1802d5.chunk.js",
+    "static/js/2.0b1802d5.chunk.js.map": "/proteomic-profiler/static/js/2.0b1802d5.chunk.js.map",
+    "index.html": "/proteomic-profiler/index.html",
+    "precache-manifest.8e19fd94f80620055d43d3ec32e2e475.js": "/proteomic-profiler/precache-manifest.8e19fd94f80620055d43d3ec32e2e475.js",
+    "service-worker.js": "/proteomic-profiler/service-worker.js",
+    "static/js/2.0b1802d5.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.0b1802d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75de12db.js",
+    "static/js/2.0b1802d5.chunk.js",
+    "static/js/main.90603de7.chunk.js"
+  ]
+}

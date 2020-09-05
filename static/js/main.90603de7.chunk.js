@@ -1,0 +1,2 @@
+(this["webpackJsonpproteomic-profiler"]=this["webpackJsonpproteomic-profiler"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var r=n(0),a=n.n(r),o=n(2),c=function(){return a.a.createElement("div",{className:"container"},a.a.createElement("p",null,"This is a placeholder."))};n.n(o).a.render(a.a.createElement(a.a.StrictMode,null,a.a.createElement(c,null)),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.90603de7.chunk.js.map
