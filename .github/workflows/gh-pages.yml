@@ -1,0 +1,27 @@
+name: Deploy to Github Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install Packages
+        run:
+          npm install
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "davidjtoomer"
+          git config --global user.email "djtoomer22@gmail.com"
+          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/Svensson-Lab/proteomic-profiler.git
+
+      - name: Deploy to Github Pages
+        run:
+          npm run deploy
