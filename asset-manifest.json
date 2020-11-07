@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.js": "/proteomic-profiler/static/js/main.90603de7.chunk.js",
-    "main.js.map": "/proteomic-profiler/static/js/main.90603de7.chunk.js.map",
-    "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.75de12db.js",
-    "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.75de12db.js.map",
-    "static/js/2.b6d027df.chunk.js": "/proteomic-profiler/static/js/2.b6d027df.chunk.js",
-    "static/js/2.b6d027df.chunk.js.map": "/proteomic-profiler/static/js/2.b6d027df.chunk.js.map",
+    "main.js": "/proteomic-profiler/static/js/main.bbe2f4b9.chunk.js",
+    "main.js.map": "/proteomic-profiler/static/js/main.bbe2f4b9.chunk.js.map",
+    "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.72eff993.js",
+    "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.72eff993.js.map",
+    "static/js/2.ee2db3af.chunk.js": "/proteomic-profiler/static/js/2.ee2db3af.chunk.js",
+    "static/js/2.ee2db3af.chunk.js.map": "/proteomic-profiler/static/js/2.ee2db3af.chunk.js.map",
     "index.html": "/proteomic-profiler/index.html",
-    "precache-manifest.71fb528af3d3ec1d956d894b85df57f4.js": "/proteomic-profiler/precache-manifest.71fb528af3d3ec1d956d894b85df57f4.js",
-    "service-worker.js": "/proteomic-profiler/service-worker.js",
-    "static/js/2.b6d027df.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.b6d027df.chunk.js.LICENSE.txt"
+    "static/js/2.ee2db3af.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.ee2db3af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.75de12db.js",
-    "static/js/2.b6d027df.chunk.js",
-    "static/js/main.90603de7.chunk.js"
+    "static/js/runtime-main.72eff993.js",
+    "static/js/2.ee2db3af.chunk.js",
+    "static/js/main.bbe2f4b9.chunk.js"
   ]
 }
