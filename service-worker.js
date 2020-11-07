@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/proteomic-profiler/precache-manifest.8e19fd94f80620055d43d3ec32e2e475.js"
+  "/proteomic-profiler/precache-manifest.71fb528af3d3ec1d956d894b85df57f4.js"
 );
 
 self.addEventListener('message', (event) => {
