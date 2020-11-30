@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.js": "/proteomic-profiler/static/js/main.f71ce8bf.chunk.js",
-    "main.js.map": "/proteomic-profiler/static/js/main.f71ce8bf.chunk.js.map",
+    "main.css": "/proteomic-profiler/static/css/main.32bfcc3c.chunk.css",
+    "main.js": "/proteomic-profiler/static/js/main.dfc1ae6f.chunk.js",
+    "main.js.map": "/proteomic-profiler/static/js/main.dfc1ae6f.chunk.js.map",
     "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.cda574ef.js",
     "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.cda574ef.js.map",
-    "static/js/2.718366cf.chunk.js": "/proteomic-profiler/static/js/2.718366cf.chunk.js",
-    "static/js/2.718366cf.chunk.js.map": "/proteomic-profiler/static/js/2.718366cf.chunk.js.map",
+    "static/css/2.75f5de22.chunk.css": "/proteomic-profiler/static/css/2.75f5de22.chunk.css",
+    "static/js/2.8c92bd77.chunk.js": "/proteomic-profiler/static/js/2.8c92bd77.chunk.js",
+    "static/js/2.8c92bd77.chunk.js.map": "/proteomic-profiler/static/js/2.8c92bd77.chunk.js.map",
     "index.html": "/proteomic-profiler/index.html",
-    "static/js/2.718366cf.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.718366cf.chunk.js.LICENSE.txt"
+    "static/css/2.75f5de22.chunk.css.map": "/proteomic-profiler/static/css/2.75f5de22.chunk.css.map",
+    "static/css/main.32bfcc3c.chunk.css.map": "/proteomic-profiler/static/css/main.32bfcc3c.chunk.css.map",
+    "static/js/2.8c92bd77.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.8c92bd77.chunk.js.LICENSE.txt",
+    "static/media/background_bottom.6ad4e379.svg": "/proteomic-profiler/static/media/background_bottom.6ad4e379.svg",
+    "static/media/background_top.47af2133.svg": "/proteomic-profiler/static/media/background_top.47af2133.svg",
+    "static/media/dna_loader.4c4bb697.svg": "/proteomic-profiler/static/media/dna_loader.4c4bb697.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cda574ef.js",
-    "static/js/2.718366cf.chunk.js",
-    "static/js/main.f71ce8bf.chunk.js"
+    "static/css/2.75f5de22.chunk.css",
+    "static/js/2.8c92bd77.chunk.js",
+    "static/css/main.32bfcc3c.chunk.css",
+    "static/js/main.dfc1ae6f.chunk.js"
   ]
 }
