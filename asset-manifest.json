@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/proteomic-profiler/static/js/main.bbe2f4b9.chunk.js",
-    "main.js.map": "/proteomic-profiler/static/js/main.bbe2f4b9.chunk.js.map",
-    "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.72eff993.js",
-    "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.72eff993.js.map",
-    "static/js/2.f54d2303.chunk.js": "/proteomic-profiler/static/js/2.f54d2303.chunk.js",
-    "static/js/2.f54d2303.chunk.js.map": "/proteomic-profiler/static/js/2.f54d2303.chunk.js.map",
+    "main.js": "/proteomic-profiler/static/js/main.f71ce8bf.chunk.js",
+    "main.js.map": "/proteomic-profiler/static/js/main.f71ce8bf.chunk.js.map",
+    "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.cda574ef.js",
+    "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.cda574ef.js.map",
+    "static/js/2.718366cf.chunk.js": "/proteomic-profiler/static/js/2.718366cf.chunk.js",
+    "static/js/2.718366cf.chunk.js.map": "/proteomic-profiler/static/js/2.718366cf.chunk.js.map",
     "index.html": "/proteomic-profiler/index.html",
-    "static/js/2.f54d2303.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.f54d2303.chunk.js.LICENSE.txt"
+    "static/js/2.718366cf.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.718366cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.72eff993.js",
-    "static/js/2.f54d2303.chunk.js",
-    "static/js/main.bbe2f4b9.chunk.js"
+    "static/js/runtime-main.cda574ef.js",
+    "static/js/2.718366cf.chunk.js",
+    "static/js/main.f71ce8bf.chunk.js"
   ]
 }
