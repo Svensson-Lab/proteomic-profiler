@@ -1,0 +1,88 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './global';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: $font-text;
+  font-weight: 400;
+  background-color: $grey-dark;
+  color: $grey-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-family: $font-caps;
+  color: $white;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 5vw;
+  line-height: 1.2;
+  letter-spacing: -0.1vw;
+  margin-bottom: 2vh;
+}
+
+h2 {
+  font-size: 3.6vw;
+  line-height: 1.25;
+  letter-spacing: -0.1vw;
+  margin-bottom: 1.8vh;
+  margin-top: 1.8vh;
+}
+
+h3 {
+  font-size: 3vw;
+  line-height: 1.3;
+  letter-spacing: -0.1vw;
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+}
+
+h4 {
+  font-size: 2.6vw;
+  line-height: 1.35;
+  letter-spacing: -0.08vw;
+  margin-bottom: 1.2vh;
+  margin-top: 1.2vh;
+}
+
+h5 {
+  font-size: 2.2vw;
+  line-height: 1.5;
+  letter-spacing: -0.05vw;
+  margin-bottom: 0.6vh;
+  margin-top: 0.6vh;
+}
+
+h6 {
+  font-size: 1.7vw;
+  line-height: 1.6;
+  letter-spacing: 0;
+  margin-bottom: 0.75vh;
+  margin-top: 0.75vh;
+}
+
+p {
+  font-size: 1.5vw;
+  margin-top: 0;
+}
+
+.test {
+  height: 30vh;
+  background-color: $grey-light;
+}

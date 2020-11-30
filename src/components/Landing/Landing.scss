@@ -1,0 +1,58 @@
+@import '../../global';
+
+$max-background-height: 35vh;
+
+.landing {
+  height: 100vh;
+
+  .landing-text {
+    padding-top: 40vh;
+    padding-left: 10vw;
+
+    button {
+      background-color: $green-purple;
+      width: 20%;
+      border-color: transparent;
+      border-radius: 2vh;
+      margin-top: 3vh;
+
+      h6 {
+        margin: 0;
+      }
+    }
+  }
+
+  img {
+    width: 100vw;
+  }
+
+  .background-top-container {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0vh;
+    max-height: $max-background-height;
+
+    .background-top {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+
+  .background-bottom-container {
+    position: absolute;
+    bottom: 0vh;
+    max-height: $max-background-height;
+    overflow: hidden;
+
+    .background-bottom {
+      object-fit: cover;
+    }
+  }
+}
