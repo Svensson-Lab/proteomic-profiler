@@ -1,3 +1,12 @@
 export const LOADING_START = 'LOADING_START';
 export const LOADING_END = 'LOADING_END';
-export const ERROR = 'ERROR';
+export const THROW_ERROR = 'THROW_ERROR';
+export const UPLOAD_FILE = 'UPLOAD_FILE';
+export const REMOVE_FILE = 'REMOVE_FILE';
+export const SELECT_SHEET = 'SELECT_SHEET';
+export const REMOVE_SHEET = 'REMOVE_SHEET';
+export const SELECT_COLUMN = 'SELECT_COLUMN';
+export const REMOVE_COLUMN = 'REMOVE_COLUMN';
+export const SET_UNIPROT_IDS = 'SET_UNIPROT_IDS';
+export const GET_PROFILE = 'GET_PROFILE';
+export const UPDATE_PROGRESS = 'UPDATE_PROGRESS';
