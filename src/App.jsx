@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import DNALoader from './components/DNALoader/DNALoader';
 import Landing from './components/Landing/Landing';
+import Upload from './components/Upload/Upload';
 import './App.scss';
 import {loadingStart, loadingEnd} from './store/actions';
 
@@ -11,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(loadingStart());
-    setTimeout(() => dispatch(loadingEnd()), 2000);
+    setTimeout(() => dispatch(loadingEnd()), 0);
   }, [dispatch]);
 
   return (
@@ -20,6 +21,7 @@ const App = () => {
         ? <DNALoader/>
         : <React.Fragment>
             <Landing/>
+            <Upload/>
           </React.Fragment>
       }
     </React.Fragment>

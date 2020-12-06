@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import {Link} from 'react-scroll';
 import backgroundTop from '../../assets/background_top.svg';
 import backgroundBottom from '../../assets/background_bottom.svg';
 import './Landing.scss';
@@ -12,7 +13,9 @@ const Landing = () => (
     <div className='landing-text'>
       <h1>Automatic Proteomic Profiler</h1>
       <p>An online tool for selecting proteins based on their subcellular location.</p>
-      <Button size='sm'><h6>Get Started</h6></Button>
+      <Link to='upload' smooth={true} duration={500}>
+        <Button><h6>Get Started</h6></Button>
+      </Link>
     </div>
     <div className='background-bottom-container'>
       <img src={backgroundBottom} className='background-bottom' alt='Network graphic - bottom portion.'/>
