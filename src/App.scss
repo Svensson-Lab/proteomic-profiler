@@ -82,7 +82,11 @@ p {
   margin-top: 0;
 }
 
-.test {
-  height: 30vh;
-  background-color: $grey-light;
+button {
+  border-color: transparent !important;
+  border-radius: 2vh !important;
+
+  h6 {
+    margin: 0;
+  }
 }
