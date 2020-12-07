@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import DNALoader from './components/DNALoader/DNALoader';
 import Landing from './components/Landing/Landing';
-import Upload from './components/Upload/Upload';
+import Profiler from './components/Profiler/Profiler';
 import './App.scss';
 import {loadingStart, loadingEnd} from './store/actions';
 
@@ -21,7 +21,7 @@ const App = () => {
         ? <DNALoader/>
         : <React.Fragment>
             <Landing/>
-            <Upload/>
+            <Profiler/>
           </React.Fragment>
       }
     </React.Fragment>
