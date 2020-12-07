@@ -27,17 +27,14 @@ export const baseReducer = (state = initialBaseState, action) => {
   }
 }
 
-const initialDataState = {
+const initialExcelState = {
   uploaded: false,
   workbook: null,
   sheet: null,
-  column: null,
-  uniprot_ids: [],
-  locations: [],
-  progress: 0
+  column: null
 }
 
-export const dataReducer = (state = initialDataState, action) => {
+export const excelReducer = (state = initialExcelState, action) => {
   switch (action.type) {
     case types.UPLOAD_FILE:
       return {
@@ -71,10 +68,23 @@ export const dataReducer = (state = initialDataState, action) => {
         ...state,
         column: null
       };
+    default:
+      return state; 
+  }
+}
+
+const initialUniprotState = {
+  ids: [],
+  locations: [],
+  progress: 0
+}
+
+export const uniprotReducer = (state = initialUniprotState, action) => {
+  switch (action.type) {
     case types.SET_UNIPROT_IDS:
       return {
         ...state,
-        uniprot_ids: action.payload
+        ids: action.payload
       };
     case types.GET_PROFILE:
       return {

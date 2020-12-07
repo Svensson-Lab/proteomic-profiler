@@ -7,8 +7,8 @@ import './ParseExcel.scss';
 
 const ParseExcel = () => {
   const dispatch = useDispatch();
-  const workbook = useSelector(state => state.data.workbook);
-  const sheet = useSelector(state => state.data.sheet);
+  const workbook = useSelector(state => state.excel.workbook);
+  const sheet = useSelector(state => state.excel.sheet);
   
   const empty = '- - -';
   const changeSheet = event => {
