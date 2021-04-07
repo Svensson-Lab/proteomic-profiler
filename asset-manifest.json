@@ -5,11 +5,11 @@
     "main.js.map": "/proteomic-profiler/static/js/main.01f6f9bc.chunk.js.map",
     "runtime-main.js": "/proteomic-profiler/static/js/runtime-main.6c9da0ff.js",
     "runtime-main.js.map": "/proteomic-profiler/static/js/runtime-main.6c9da0ff.js.map",
-    "static/css/2.e06e69ed.chunk.css": "/proteomic-profiler/static/css/2.e06e69ed.chunk.css",
+    "static/css/2.b9bc2712.chunk.css": "/proteomic-profiler/static/css/2.b9bc2712.chunk.css",
     "static/js/2.50efd806.chunk.js": "/proteomic-profiler/static/js/2.50efd806.chunk.js",
     "static/js/2.50efd806.chunk.js.map": "/proteomic-profiler/static/js/2.50efd806.chunk.js.map",
     "index.html": "/proteomic-profiler/index.html",
-    "static/css/2.e06e69ed.chunk.css.map": "/proteomic-profiler/static/css/2.e06e69ed.chunk.css.map",
+    "static/css/2.b9bc2712.chunk.css.map": "/proteomic-profiler/static/css/2.b9bc2712.chunk.css.map",
     "static/css/main.b3a0e7b2.chunk.css.map": "/proteomic-profiler/static/css/main.b3a0e7b2.chunk.css.map",
     "static/js/2.50efd806.chunk.js.LICENSE.txt": "/proteomic-profiler/static/js/2.50efd806.chunk.js.LICENSE.txt",
     "static/media/background_bottom.6ad4e379.svg": "/proteomic-profiler/static/media/background_bottom.6ad4e379.svg",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6c9da0ff.js",
-    "static/css/2.e06e69ed.chunk.css",
+    "static/css/2.b9bc2712.chunk.css",
     "static/js/2.50efd806.chunk.js",
     "static/css/main.b3a0e7b2.chunk.css",
     "static/js/main.01f6f9bc.chunk.js"
