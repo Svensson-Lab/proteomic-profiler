@@ -76,20 +76,31 @@ export const excelReducer = (state = initialExcelState, action) => {
 const initialUniprotState = {
   ids: [],
   locations: [],
-  progress: 0
+  progress: 0,
+  in_progress: false
 }
 
 export const uniprotReducer = (state = initialUniprotState, action) => {
   switch (action.type) {
+    case types.SELECT_LOCATIONS:
+      return {
+        ...state,
+        locations: action.payload
+      };
     case types.SET_UNIPROT_IDS:
       return {
         ...state,
         ids: action.payload
       };
-    case types.GET_PROFILE:
+    case types.START_REQUESTS:
       return {
         ...state,
-        locations: action.payload
+        in_progress: true
+      };
+    case types.END_REQUESTS:
+      return {
+        ...state,
+        in_progress: false
       };
     case types.UPDATE_PROGRESS:
       return {
