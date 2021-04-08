@@ -13,7 +13,7 @@ const Landing = () => (
     <div className='landing-text'>
       <h1>Automatic Proteomic Profiler</h1>
       <p>An online tool for selecting proteins based on their subcellular location.</p>
-      <Link to='upload' smooth={true} duration={500}>
+      <Link to='profiler' smooth={true} duration={500}>
         <Button><h6>Get Started</h6></Button>
       </Link>
     </div>

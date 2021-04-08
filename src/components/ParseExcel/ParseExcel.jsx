@@ -1,5 +1,5 @@
 import React from 'react';
-import {useSelector, useDispatch} from 'react-bootstrap'
+import {useSelector, useDispatch} from 'react-redux'
 import Form from 'react-bootstrap/Form';
 import {selectSheet, removeSheet, selectColumn, removeColumn} from '../../store/actions';
 import {isDigit} from '../../util';
