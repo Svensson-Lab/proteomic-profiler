@@ -3,7 +3,8 @@ import * as reducers from './reducers';
 
 const createRootReducer = () => combineReducers({
   base: reducers.baseReducer,
-  data: reducers.dataReducer
+  excel: reducers.excelReducer,
+  uniprot: reducers.uniprotReducer
 });
 
 export default createRootReducer;
