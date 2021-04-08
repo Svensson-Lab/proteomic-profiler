@@ -89,14 +89,15 @@ export const processRequests = () => async(dispatch) => {
       }
     }
     
-    // TODO: make the requests async
-    await axios.get(`https://www.uniprot.org/uniprot/?query=locations:(${locationString})+AND+id:${uniprot_id}&format=tab&columns=id,comment(SUBCELLULAR LOCATION)&limit=1`)
-      .then(res => {
-        let data = res.data !== "" ? res.data.slice(res.data.search(':') + 2, -1) : '';
-        results.push([uniprot_id, data]);
-      })
-      .catch(error => console.log(error))
-      .finally(() => dispatch(updateProgress(++row - 1)));
+    try {
+      let res = await axios.get(`https://www.uniprot.org/uniprot/?query=locations:(${locationString})+AND+id:${uniprot_id}&format=tab&columns=id,comment(SUBCELLULAR LOCATION)&limit=1`);
+      let data = res.data !== "" ? res.data.slice(res.data.search(':') + 2, -1) : '';
+      results.push([uniprot_id, data]);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      dispatch(updateProgress(++row - 1));
+    }
   }
   let wsToExport = XLSX.utils.aoa_to_sheet(results);
   let wbToExport = XLSX.utils.book_new();
