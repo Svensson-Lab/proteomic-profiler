@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(loadingStart());
-    setTimeout(() => dispatch(loadingEnd()), 0);
+    setTimeout(() => dispatch(loadingEnd()), 2500);
   }, [dispatch]);
 
   return (
